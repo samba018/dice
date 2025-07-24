@@ -1,3 +1,28 @@
 #slide{
-    padding-left:500px;
+    padding-left:600px;
+}
+.text{
+    color: rgb(227, 6, 243);
+    font-size: 30px;
+
+}
+
+.but {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 690px; 
+    border-radius: 5px;
+    color: rgb(254, 254, 254);
+    background-color: rgb(24, 173, 196);
+    height: 40px;
+    width: 150px;
+    transition: transform 0.3s ease; 
+    border-color: none;
+}
+
+.but:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
